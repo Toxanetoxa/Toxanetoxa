@@ -123,15 +123,15 @@ def main():
 
     measured_repos = sum(bool(language_bytes) for _, language_bytes, _ in summary)
     cards = {
-        f"languages.{locale}.svg": render_languages(language_rows, measured_repos, locale)
+        f"languages-icons.{locale}.svg": render_languages(language_rows, measured_repos, locale)
         for locale in ("en", "ru")
     }
     cards.update({
-        f"primary-languages.{locale}.svg": render_primary_languages(primary_rows, len(repos), locale)
+        f"primary-languages-icons.{locale}.svg": render_primary_languages(primary_rows, len(repos), locale)
         for locale in ("en", "ru")
     })
     cards.update({
-        f"technologies.{locale}.svg": render_technologies(technology_rows, len(repos), locale)
+        f"technologies-icons.{locale}.svg": render_technologies(technology_rows, len(repos), locale)
         for locale in ("en", "ru")
     })
     args.output.mkdir(parents=True, exist_ok=True)

@@ -16,10 +16,15 @@
 ### Full Stack
 
 - **[ShiftSchedule](https://toxanetoxa.github.io/ShiftSchedule.frontend/)** — планировщик смен с календарём сотрудников, проверкой пересечений и публикацией графика. [Vue 3 и TypeScript на клиенте](https://github.com/Toxanetoxa/ShiftSchedule.frontend), [Laravel и PostgreSQL в API](https://github.com/Toxanetoxa/ShiftSchedule.backend).
+- **[NN Map](https://github.com/Toxanetoxa/Nizhny-Novgorod-map)** — интерактивная карта инвестиционных объектов с фильтрами, админ-панелью и синхронизацией с ГИС.
+- **[Master Telegram Bot](https://github.com/Toxanetoxa/master_tg_bot)** — Telegram-бот с админкой для контента и оплатой через ЮKassa.
+- **[WorkersTask](https://github.com/Toxanetoxa/WorkersTask)** — CRUD-приложение с клиентом на Vue и REST API на Express.
 
 ### Frontend
 
 - **[LOW GAME](https://toxanetoxa.github.io/low-game/)** — браузерный файтинг для двух игроков на TypeScript и WebRTC. [Исходный код](https://github.com/Toxanetoxa/low-game).
+- **[AutoPartsSearch](https://github.com/Toxanetoxa/AutoPartsSearch)** — приложение на React для поиска запчастей и аналогов по артикулу с отображением цен и остатков.
+- **[Pixi Bird](https://github.com/Toxanetoxa/pixi.bird)** — браузерная игра на PixiJS и TypeScript.
 
 ### Backend
 
@@ -27,21 +32,26 @@
 - **[Dating Backend](https://github.com/Toxanetoxa/dating-backend)** — API приложения знакомств с чатом на WebSocket. Go · PostGIS · Redis.
 - **[Selesa Slots](https://github.com/Toxanetoxa/selesa-slots)** — сервис игрового кошелька с REST, gRPC и событиями по WebSocket.
 - **[Notification Preferences Service](https://github.com/Toxanetoxa/notification_preference_service)** — API пользовательских настроек уведомлений и тихих часов. TypeScript · Fastify · PostgreSQL.
+- **[Process Pay](https://github.com/Toxanetoxa/proccess-pay)** — асинхронная обработка платежей с transactional outbox, RabbitMQ и вебхуками.
+- **[Message Broker](https://github.com/Toxanetoxa/message_broker)** — брокер сообщений на Go с FIFO-очередями, HTTP API и long polling.
+- **[Tiger Task Manager](https://github.com/Toxanetoxa/tiger_task_manager)** — прототип сервиса управления задачами на Laravel с очередями Redis.
+
+[Все публичные репозитории](https://github.com/Toxanetoxa?tab=repositories)
 
 ## Аналитика репозиториев
 
 <p align="center">
   <picture>
-    <source media="(max-width: 991px)" srcset="./assets/analytics/languages.ru.svg" width="352">
-    <img src="./assets/analytics/languages.ru.svg" width="32%" alt="Языки по доле байтов кода">
+    <source media="(max-width: 991px)" srcset="./assets/analytics/languages-icons.ru.svg" width="352">
+    <img src="./assets/analytics/languages-icons.ru.svg" width="32%" alt="Языки по доле байтов кода">
   </picture>
   <picture>
-    <source media="(max-width: 991px)" srcset="./assets/analytics/primary-languages.ru.svg" width="352">
-    <img src="./assets/analytics/primary-languages.ru.svg" width="32%" alt="Доли репозиториев по основному языку, включая репозитории без определённого языка">
+    <source media="(max-width: 991px)" srcset="./assets/analytics/primary-languages-icons.ru.svg" width="352">
+    <img src="./assets/analytics/primary-languages-icons.ru.svg" width="32%" alt="Доли репозиториев по основному языку, включая репозитории без определённого языка">
   </picture>
   <picture>
-    <source media="(max-width: 991px)" srcset="./assets/analytics/technologies.ru.svg" width="352">
-    <img src="./assets/analytics/technologies.ru.svg" width="32%" alt="Технологии по доле репозиториев">
+    <source media="(max-width: 991px)" srcset="./assets/analytics/technologies-icons.ru.svg" width="352">
+    <img src="./assets/analytics/technologies-icons.ru.svg" width="32%" alt="Технологии по доле репозиториев">
   </picture>
 </p>
 

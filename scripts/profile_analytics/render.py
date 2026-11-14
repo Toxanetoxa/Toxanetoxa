@@ -1,12 +1,17 @@
 """Render share-of-code and share-of-repository SVG cards for the profile."""
 
 from html import escape
+from functools import lru_cache
+from pathlib import Path
+from xml.etree import ElementTree
 
 
 _CARD_WIDTH = 352
 _INSET = 19
 _ROW_HEIGHT = 35
 _BAR_WIDTH = _CARD_WIDTH - 2 * _INSET
+_ICON_SIZE = 20
+_TILES = Path(__file__).resolve().parents[2] / "assets" / "tech" / "tiles"
 _COPY = {
     "en": {
         "languages": "Languages",
@@ -74,6 +79,42 @@ def _format_share(share, locale):
     return f"{rounded}%"
 
 
+@lru_cache(maxsize=64)
+def _brand_icon(name):
+    if name == "Java":
+        source = Path(__file__).with_name("icons") / "java.svg"
+        return "0 0 128 128", ElementTree.parse(source).getroot()
+
+    slug = name.lower().replace(".", "").replace(" ", "-")
+    source = _TILES / f"{slug}.svg"
+    if not source.is_file():
+        return None
+    plate, *artwork = list(ElementTree.parse(source).getroot().find("{*}svg"))[1:]
+    icon = ElementTree.Element("g")
+    icon.extend([plate, *artwork])
+    return "8 8 32 32", icon
+
+
+def _row_icon(name, y):
+    brand = _brand_icon(name)
+    if brand is None:
+        symbol = "⋯" if name == "Other" else "−" if name == "Undetected" else "•"
+        return (
+            f'    <text x="{_INSET + 10}" y="{y - 1}" text-anchor="middle" font-size="17" '
+            f'fill="#D6C9E3" aria-hidden="true">{symbol}</text>'
+        )
+
+    viewbox, icon = brand
+    backing = ""
+    if name == "Java":
+        backing = '<rect width="128" height="128" rx="25" fill="#E8DDF2"/>'
+    artwork = "".join(ElementTree.tostring(child, encoding="unicode") for child in icon)
+    return (
+        f'    <svg x="{_INSET}" y="{y - 16}" width="{_ICON_SIZE}" height="{_ICON_SIZE}" '
+        f'viewBox="{viewbox}" aria-hidden="true">{backing}{artwork}</svg>'
+    )
+
+
 def _render_card(kind, rows, scope, locale):
     copy = _COPY[locale]
     title = copy[kind]
@@ -98,13 +139,14 @@ def _render_card(kind, rows, scope, locale):
         markup.append(
             f'    <text x="{_INSET}" y="70" font-size="15" fill="#D6C9E3">{copy["empty"]}</text>'
         )
-    for index, (name, share) in enumerate(labels):
+    for index, ((name, _), (label, share)) in enumerate(zip(rows, labels, strict=True)):
         y = 65 + index * _ROW_HEIGHT
         bar_y = y + 7
         bar_width = _BAR_WIDTH * share / 100
         markup.extend([
-            f'    <text x="{_INSET}" y="{y}" font-size="15" font-weight="550" fill="#F6F0FC">'
-            f'{escape(name)}</text>',
+            _row_icon(name, y),
+            f'    <text x="{_INSET + _ICON_SIZE + 7}" y="{y}" font-size="15" font-weight="550" fill="#F6F0FC">'
+            f'{escape(label)}</text>',
             f'    <text x="{_CARD_WIDTH - _INSET}" y="{y}" text-anchor="end" font-size="15" '
             f'font-weight="650" fill="#E0B9FC">{escape(_format_share(share, locale))}</text>',
             f'    <rect x="{_INSET}" y="{bar_y}" width="{_BAR_WIDTH}" height="5" rx="2.5" fill="#443653"/>',

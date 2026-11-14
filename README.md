@@ -16,10 +16,15 @@ I build web services, from APIs and data processing to user interfaces and desig
 ### Full Stack
 
 - **[ShiftSchedule](https://toxanetoxa.github.io/ShiftSchedule.frontend/)** — a shift planner with an employee calendar, overlap detection, and schedule publishing. [Vue 3 and TypeScript frontend](https://github.com/Toxanetoxa/ShiftSchedule.frontend) and [Laravel and PostgreSQL API](https://github.com/Toxanetoxa/ShiftSchedule.backend).
+- **[NN Map](https://github.com/Toxanetoxa/Nizhny-Novgorod-map)** — an interactive map of investment sites with filters, an admin panel, and GIS synchronization.
+- **[Master Telegram Bot](https://github.com/Toxanetoxa/master_tg_bot)** — a Telegram bot with a content dashboard and YooKassa payments.
+- **[WorkersTask](https://github.com/Toxanetoxa/WorkersTask)** — a CRUD web app with a Vue client and an Express REST API.
 
 ### Frontend
 
 - **[LOW GAME](https://toxanetoxa.github.io/low-game/)** — a two-player browser fighting game built with TypeScript and WebRTC. [Source code](https://github.com/Toxanetoxa/low-game).
+- **[AutoPartsSearch](https://github.com/Toxanetoxa/AutoPartsSearch)** — a React app for finding auto parts and alternatives by part number, with price and stock information.
+- **[Pixi Bird](https://github.com/Toxanetoxa/pixi.bird)** — a browser game built with PixiJS and TypeScript.
 
 ### Backend
 
@@ -27,21 +32,26 @@ I build web services, from APIs and data processing to user interfaces and desig
 - **[Dating Backend](https://github.com/Toxanetoxa/dating-backend)** — an API for a dating app with WebSocket chat. Go · PostGIS · Redis.
 - **[Selesa Slots](https://github.com/Toxanetoxa/selesa-slots)** — a gaming wallet service with REST, gRPC, and real-time events over WebSocket.
 - **[Notification Preferences Service](https://github.com/Toxanetoxa/notification_preference_service)** — an API for user notification preferences and quiet hours. TypeScript · Fastify · PostgreSQL.
+- **[Process Pay](https://github.com/Toxanetoxa/proccess-pay)** — asynchronous payment processing with a transactional outbox, RabbitMQ, and webhooks.
+- **[Message Broker](https://github.com/Toxanetoxa/message_broker)** — a Go message broker with HTTP-accessible FIFO queues and long polling.
+- **[Tiger Task Manager](https://github.com/Toxanetoxa/tiger_task_manager)** — a Laravel task management prototype with Redis queues.
+
+[All public repositories](https://github.com/Toxanetoxa?tab=repositories)
 
 ## Repository analytics
 
 <p align="center">
   <picture>
-    <source media="(max-width: 991px)" srcset="./assets/analytics/languages.en.svg" width="352">
-    <img src="./assets/analytics/languages.en.svg" width="32%" alt="Languages by share of code bytes">
+    <source media="(max-width: 991px)" srcset="./assets/analytics/languages-icons.en.svg" width="352">
+    <img src="./assets/analytics/languages-icons.en.svg" width="32%" alt="Languages by share of code bytes">
   </picture>
   <picture>
-    <source media="(max-width: 991px)" srcset="./assets/analytics/primary-languages.en.svg" width="352">
-    <img src="./assets/analytics/primary-languages.en.svg" width="32%" alt="Share of repositories by primary language, including repositories with no detected language">
+    <source media="(max-width: 991px)" srcset="./assets/analytics/primary-languages-icons.en.svg" width="352">
+    <img src="./assets/analytics/primary-languages-icons.en.svg" width="32%" alt="Share of repositories by primary language, including repositories with no detected language">
   </picture>
   <picture>
-    <source media="(max-width: 991px)" srcset="./assets/analytics/technologies.en.svg" width="352">
-    <img src="./assets/analytics/technologies.en.svg" width="32%" alt="Detected technologies by share of repositories">
+    <source media="(max-width: 991px)" srcset="./assets/analytics/technologies-icons.en.svg" width="352">
+    <img src="./assets/analytics/technologies-icons.en.svg" width="32%" alt="Detected technologies by share of repositories">
   </picture>
 </p>
 
