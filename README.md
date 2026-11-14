@@ -6,26 +6,14 @@
 
 ## Избранные проекты
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://videoscale.pro/ru/"><img src="./assets/projects/videoscale.webp" width="410" alt="Главная страница VideoScale с параметрами обработки видео и фото"></a>
-      <p><strong>VideoScale</strong></p>
-      <p>Веб-сервис для повышения разрешения видео и изображений с помощью ИИ.</p>
-      <a href="https://videoscale.pro/ru/">Открыть VideoScale</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/docs/schedule-schedulegrid--docs"><img src="./assets/projects/shift-schedule-storybook.webp" width="410" alt="Недельная сетка смен в демо ShiftSchedule Storybook"></a>
-      <p><strong>ShiftSchedule Storybook</strong></p>
-      <p>Дизайн-система планировщика смен с интерактивными примерами компонентов на Vue 3.</p>
-      <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/docs/schedule-schedulegrid--docs">Открыть Storybook</a> · <a href="https://github.com/Toxanetoxa/ShiftSchedule.frontend">Код</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://videoscale.pro/ru/"><img src="./assets/projects/videoscale.webp" width="410" alt="Открыть VideoScale — сервис для повышения разрешения видео и фото с ИИ"></a>
+  <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/docs/schedule-schedulegrid--docs"><img src="./assets/projects/shift-schedule-storybook.webp" width="410" alt="Открыть ShiftSchedule Storybook — интерактивная недельная сетка планировщика смен"></a>
+</p>
 
 ### Full Stack
 
-- **[ShiftSchedule](https://toxanetoxa.github.io/ShiftSchedule.frontend/)** — планировщик смен с календарём сотрудников, проверкой пересечений и публикацией графика. Vue 3 и TypeScript на клиенте, [Laravel и PostgreSQL в API](https://github.com/Toxanetoxa/ShiftSchedule.backend).
+- **[ShiftSchedule](https://toxanetoxa.github.io/ShiftSchedule.frontend/)** — планировщик смен с календарём сотрудников, проверкой пересечений и публикацией графика. [Vue 3 и TypeScript на клиенте](https://github.com/Toxanetoxa/ShiftSchedule.frontend), [Laravel и PostgreSQL в API](https://github.com/Toxanetoxa/ShiftSchedule.backend).
 
 ### Frontend
 
