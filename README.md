@@ -6,14 +6,29 @@
 
 ## Избранные проекты
 
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://videoscale.pro/ru/"><img src="./assets/projects/videoscale.webp" width="410" alt="Главная страница VideoScale с параметрами обработки видео и фото"></a>
+      <p><strong>VideoScale</strong></p>
+      <p>Веб-сервис для повышения разрешения видео и изображений с помощью ИИ.</p>
+      <a href="https://videoscale.pro/ru/">Открыть VideoScale</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/docs/schedule-schedulegrid--docs"><img src="./assets/projects/shift-schedule-storybook.webp" width="410" alt="Недельная сетка смен в демо ShiftSchedule Storybook"></a>
+      <p><strong>ShiftSchedule Storybook</strong></p>
+      <p>Дизайн-система планировщика смен с интерактивными примерами компонентов на Vue 3.</p>
+      <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/docs/schedule-schedulegrid--docs">Открыть Storybook</a> · <a href="https://github.com/Toxanetoxa/ShiftSchedule.frontend">Код</a>
+    </td>
+  </tr>
+</table>
+
 ### Full Stack
 
-- **[VideoScale](https://videoscale.pro/)** — мой веб-сервис для повышения разрешения видео и изображений с помощью ИИ. Можно загрузить файл, выбрать модель и скачать результат обработки.
 - **[ShiftSchedule](https://toxanetoxa.github.io/ShiftSchedule.frontend/)** — планировщик смен с календарём сотрудников, проверкой пересечений и публикацией графика. Vue 3 и TypeScript на клиенте, [Laravel и PostgreSQL в API](https://github.com/Toxanetoxa/ShiftSchedule.backend).
 
 ### Frontend
 
-- **[ShiftSchedule Storybook](https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/docs/schedule-schedulegrid--docs)** — дизайн-система планировщика смен с интерактивной документацией компонентов. Ссылка ведёт прямо к сетке расписания. [Код на Vue 3 и TypeScript](https://github.com/Toxanetoxa/ShiftSchedule.frontend).
 - **[LOW GAME](https://toxanetoxa.github.io/low-game/)** — браузерный файтинг для двух игроков на TypeScript и WebRTC. [Исходный код](https://github.com/Toxanetoxa/low-game).
 
 ### Backend
@@ -41,7 +56,3 @@
   <strong>Инфраструктура и очереди</strong><br>
   <img src="./assets/tech/infra.svg" width="305" alt="Docker, Kubernetes, Helm, Kafka, RabbitMQ">
 </p>
-
-## Активность на GitHub
-
-![Вклады и активные дни по публичному календарю GitHub за год](./assets/github-activity.svg)
