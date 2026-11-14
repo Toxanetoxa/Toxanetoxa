@@ -7,8 +7,8 @@
 ## Избранные проекты
 
 <p align="center">
-  <a href="https://videoscale.pro/ru/"><img src="./assets/projects/videoscale-demo.webp" width="410" alt="Открыть VideoScale — сервис для повышения разрешения видео и фото с ИИ"></a>
-  <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/story/schedule-workspace--drag-assigned-shift"><img src="./assets/projects/shift-schedule-drag-demo.webp" width="410" alt="Открыть ShiftSchedule Storybook — демо с перетаскиванием назначенной смены"></a>
+  <a href="https://videoscale.pro/ru/"><img src="./assets/projects/videoscale-lilac.webp" width="410" alt="Открыть VideoScale — сервис для повышения разрешения видео и фото с ИИ"></a>
+  <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/story/schedule-workspace--drag-assigned-shift"><img src="./assets/projects/shift-schedule-drag-lilac.webp" width="410" alt="Открыть ShiftSchedule Storybook — демо с перетаскиванием назначенной смены"></a>
 </p>
 
 ### Full Stack
@@ -37,10 +37,26 @@
   <img src="./assets/tech/frontend.svg" width="305" alt="Vue, React, Next.js, Nuxt, Storybook">
 </p>
 <p>
+  <strong>Инструменты фронтенда</strong><br>
+  <img src="./assets/tech/frontend-tools.svg" width="206" alt="TanStack Query, Axios, Vite">
+</p>
+<p>
+  <strong>Вёрстка и шаблоны</strong><br>
+  <img src="./assets/tech/markup.svg" width="305" alt="HTML, CSS, SCSS, Twig, Pug">
+</p>
+<p>
+  <strong>Backend</strong><br>
+  <img src="./assets/tech/backend.svg" width="305" alt="Laravel, Node.js, Express, Fastify, Prisma">
+</p>
+<p>
   <strong>Базы данных и кеши</strong><br>
   <img src="./assets/tech/data.svg" width="305" alt="PostgreSQL, Redis, ClickHouse, MySQL, MongoDB">
 </p>
 <p>
   <strong>Инфраструктура и очереди</strong><br>
   <img src="./assets/tech/infra.svg" width="305" alt="Docker, Kubernetes, Helm, Kafka, RabbitMQ">
+</p>
+<p>
+  <strong>Релизы и мониторинг</strong><br>
+  <img src="./assets/tech/delivery.svg" width="278" alt="Unleash, GitHub Actions, Prometheus, Grafana">
 </p>
