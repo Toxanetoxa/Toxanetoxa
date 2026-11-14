@@ -28,7 +28,7 @@
 
 ## Технологии
 
-<p>
+<p align="center">
   <strong>Языки</strong><br>
   <a href="https://go.dev/" title="Go"><img src="./assets/tech/tiles/go.svg" width="126" height="126" alt="Go" title="Go"></a>
   <a href="https://www.python.org/" title="Python"><img src="./assets/tech/tiles/python.svg" width="126" height="126" alt="Python" title="Python"></a>
@@ -37,7 +37,7 @@
   <a href="https://www.typescriptlang.org/" title="TypeScript"><img src="./assets/tech/tiles/typescript.svg" width="126" height="126" alt="TypeScript" title="TypeScript"></a>
 </p>
 
-<p>
+<p align="center">
   <strong>Frontend</strong><br>
   <a href="https://vuejs.org/" title="Vue"><img src="./assets/tech/tiles/vue.svg" width="126" height="126" alt="Vue" title="Vue"></a>
   <a href="https://react.dev/" title="React"><img src="./assets/tech/tiles/react.svg" width="126" height="126" alt="React" title="React"></a>
@@ -46,14 +46,14 @@
   <a href="https://storybook.js.org/" title="Storybook"><img src="./assets/tech/tiles/storybook.svg" width="126" height="126" alt="Storybook" title="Storybook"></a>
 </p>
 
-<p>
+<p align="center">
   <strong>Инструменты фронтенда</strong><br>
   <a href="https://tanstack.com/query/latest" title="TanStack Query"><img src="./assets/tech/tiles/tanstack-query.svg" width="126" height="126" alt="TanStack Query" title="TanStack Query"></a>
   <a href="https://axios.rest/" title="Axios"><img src="./assets/tech/tiles/axios.svg" width="126" height="126" alt="Axios" title="Axios"></a>
   <a href="https://vite.dev/" title="Vite"><img src="./assets/tech/tiles/vite.svg" width="126" height="126" alt="Vite" title="Vite"></a>
 </p>
 
-<p>
+<p align="center">
   <strong>Вёрстка и шаблоны</strong><br>
   <a href="https://html.spec.whatwg.org/" title="HTML"><img src="./assets/tech/tiles/html.svg" width="126" height="126" alt="HTML" title="HTML"></a>
   <a href="https://www.w3.org/Style/CSS/" title="CSS"><img src="./assets/tech/tiles/css.svg" width="126" height="126" alt="CSS" title="CSS"></a>
@@ -62,7 +62,7 @@
   <a href="https://pugjs.org/api/getting-started.html" title="Pug"><img src="./assets/tech/tiles/pug.svg" width="126" height="126" alt="Pug" title="Pug"></a>
 </p>
 
-<p>
+<p align="center">
   <strong>Backend</strong><br>
   <a href="https://laravel.com/" title="Laravel"><img src="./assets/tech/tiles/laravel.svg" width="126" height="126" alt="Laravel" title="Laravel"></a>
   <a href="https://nodejs.org/" title="Node.js"><img src="./assets/tech/tiles/nodejs.svg" width="126" height="126" alt="Node.js" title="Node.js"></a>
@@ -71,7 +71,7 @@
   <a href="https://www.prisma.io/" title="Prisma"><img src="./assets/tech/tiles/prisma.svg" width="126" height="126" alt="Prisma" title="Prisma"></a>
 </p>
 
-<p>
+<p align="center">
   <strong>Базы данных и кеши</strong><br>
   <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="./assets/tech/tiles/postgresql.svg" width="126" height="126" alt="PostgreSQL" title="PostgreSQL"></a>
   <a href="https://redis.io/" title="Redis"><img src="./assets/tech/tiles/redis.svg" width="126" height="126" alt="Redis" title="Redis"></a>
@@ -80,7 +80,7 @@
   <a href="https://www.mongodb.com/" title="MongoDB"><img src="./assets/tech/tiles/mongodb.svg" width="126" height="126" alt="MongoDB" title="MongoDB"></a>
 </p>
 
-<p>
+<p align="center">
   <strong>Инфраструктура и очереди</strong><br>
   <a href="https://www.docker.com/" title="Docker"><img src="./assets/tech/tiles/docker.svg" width="126" height="126" alt="Docker" title="Docker"></a>
   <a href="https://kubernetes.io/" title="Kubernetes"><img src="./assets/tech/tiles/kubernetes.svg" width="126" height="126" alt="Kubernetes" title="Kubernetes"></a>
@@ -89,7 +89,7 @@
   <a href="https://www.rabbitmq.com/" title="RabbitMQ"><img src="./assets/tech/tiles/rabbitmq.svg" width="126" height="126" alt="RabbitMQ" title="RabbitMQ"></a>
 </p>
 
-<p>
+<p align="center">
   <strong>Релизы и мониторинг</strong><br>
   <a href="https://www.getunleash.io/" title="Unleash"><img src="./assets/tech/tiles/unleash.svg" width="126" height="126" alt="Unleash" title="Unleash"></a>
   <a href="https://github.com/features/actions" title="GitHub Actions"><img src="./assets/tech/tiles/github-actions.svg" width="126" height="126" alt="GitHub Actions" title="GitHub Actions"></a>
