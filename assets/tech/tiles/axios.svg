@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="126" viewBox="0 0 126 126">
+  <title>Axios</title>
+  <svg x="5" y="5" width="116" height="116" viewBox="0 0 48 48">
+    <!-- Simple Icons (CC0-1.0), https://github.com/simple-icons/simple-icons -->
+    <rect x=".5" y=".5" width="47" height="47" rx="9" fill="#211A30" stroke="#9E78CD"/>
+    <rect x="8" y="8" width="32" height="32" rx="7" fill="#E8DDF2"/>
+    <path d="M11.0683 2.89968V22.2973l-2.11399 1.70265V7.8638H4.975l6.0933-4.96412zM14.93426 0v15.76724H19.025l-6.20044 5.08865V1.4689L14.93426 0z" transform="translate(11 11) scale(1.083333)" fill="#5A29E4"/>
+  </svg>
+</svg>

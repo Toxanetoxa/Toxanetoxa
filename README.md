@@ -30,69 +30,69 @@
 
 <p>
   <strong>Языки</strong><br>
-  <a href="https://go.dev/" title="Go"><img src="./assets/tech/go.svg" width="58" height="58" alt="Go" title="Go"></a>
-  <a href="https://www.python.org/" title="Python"><img src="./assets/tech/python.svg" width="58" height="58" alt="Python" title="Python"></a>
-  <a href="https://www.php.net/" title="PHP"><img src="./assets/tech/php.svg" width="58" height="58" alt="PHP" title="PHP"></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="./assets/tech/javascript.svg" width="58" height="58" alt="JavaScript" title="JavaScript"></a>
-  <a href="https://www.typescriptlang.org/" title="TypeScript"><img src="./assets/tech/typescript.svg" width="58" height="58" alt="TypeScript" title="TypeScript"></a>
+  <a href="https://go.dev/" title="Go"><img src="./assets/tech/tiles/go.svg" width="126" height="126" alt="Go" title="Go"></a>
+  <a href="https://www.python.org/" title="Python"><img src="./assets/tech/tiles/python.svg" width="126" height="126" alt="Python" title="Python"></a>
+  <a href="https://www.php.net/" title="PHP"><img src="./assets/tech/tiles/php.svg" width="126" height="126" alt="PHP" title="PHP"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="./assets/tech/tiles/javascript.svg" width="126" height="126" alt="JavaScript" title="JavaScript"></a>
+  <a href="https://www.typescriptlang.org/" title="TypeScript"><img src="./assets/tech/tiles/typescript.svg" width="126" height="126" alt="TypeScript" title="TypeScript"></a>
 </p>
 
 <p>
   <strong>Frontend</strong><br>
-  <a href="https://vuejs.org/" title="Vue"><img src="./assets/tech/vue.svg" width="58" height="58" alt="Vue" title="Vue"></a>
-  <a href="https://react.dev/" title="React"><img src="./assets/tech/react.svg" width="58" height="58" alt="React" title="React"></a>
-  <a href="https://nextjs.org/" title="Next.js"><img src="./assets/tech/nextjs.svg" width="58" height="58" alt="Next.js" title="Next.js"></a>
-  <a href="https://nuxt.com/" title="Nuxt"><img src="./assets/tech/nuxt.svg" width="58" height="58" alt="Nuxt" title="Nuxt"></a>
-  <a href="https://storybook.js.org/" title="Storybook"><img src="./assets/tech/storybook.svg" width="58" height="58" alt="Storybook" title="Storybook"></a>
+  <a href="https://vuejs.org/" title="Vue"><img src="./assets/tech/tiles/vue.svg" width="126" height="126" alt="Vue" title="Vue"></a>
+  <a href="https://react.dev/" title="React"><img src="./assets/tech/tiles/react.svg" width="126" height="126" alt="React" title="React"></a>
+  <a href="https://nextjs.org/" title="Next.js"><img src="./assets/tech/tiles/nextjs.svg" width="126" height="126" alt="Next.js" title="Next.js"></a>
+  <a href="https://nuxt.com/" title="Nuxt"><img src="./assets/tech/tiles/nuxt.svg" width="126" height="126" alt="Nuxt" title="Nuxt"></a>
+  <a href="https://storybook.js.org/" title="Storybook"><img src="./assets/tech/tiles/storybook.svg" width="126" height="126" alt="Storybook" title="Storybook"></a>
 </p>
 
 <p>
   <strong>Инструменты фронтенда</strong><br>
-  <a href="https://tanstack.com/query/latest" title="TanStack Query"><img src="./assets/tech/tanstack-query.svg" width="58" height="58" alt="TanStack Query" title="TanStack Query"></a>
-  <a href="https://axios.rest/" title="Axios"><img src="./assets/tech/axios.svg" width="58" height="58" alt="Axios" title="Axios"></a>
-  <a href="https://vite.dev/" title="Vite"><img src="./assets/tech/vite.svg" width="58" height="58" alt="Vite" title="Vite"></a>
+  <a href="https://tanstack.com/query/latest" title="TanStack Query"><img src="./assets/tech/tiles/tanstack-query.svg" width="126" height="126" alt="TanStack Query" title="TanStack Query"></a>
+  <a href="https://axios.rest/" title="Axios"><img src="./assets/tech/tiles/axios.svg" width="126" height="126" alt="Axios" title="Axios"></a>
+  <a href="https://vite.dev/" title="Vite"><img src="./assets/tech/tiles/vite.svg" width="126" height="126" alt="Vite" title="Vite"></a>
 </p>
 
 <p>
   <strong>Вёрстка и шаблоны</strong><br>
-  <a href="https://html.spec.whatwg.org/" title="HTML"><img src="./assets/tech/html.svg" width="58" height="58" alt="HTML" title="HTML"></a>
-  <a href="https://www.w3.org/Style/CSS/" title="CSS"><img src="./assets/tech/css.svg" width="58" height="58" alt="CSS" title="CSS"></a>
-  <a href="https://sass-lang.com/documentation/syntax/" title="SCSS"><img src="./assets/tech/scss.svg" width="58" height="58" alt="SCSS" title="SCSS"></a>
-  <a href="https://twig.symfony.com/" title="Twig"><img src="./assets/tech/twig.svg" width="58" height="58" alt="Twig" title="Twig"></a>
-  <a href="https://pugjs.org/api/getting-started.html" title="Pug"><img src="./assets/tech/pug.svg" width="58" height="58" alt="Pug" title="Pug"></a>
+  <a href="https://html.spec.whatwg.org/" title="HTML"><img src="./assets/tech/tiles/html.svg" width="126" height="126" alt="HTML" title="HTML"></a>
+  <a href="https://www.w3.org/Style/CSS/" title="CSS"><img src="./assets/tech/tiles/css.svg" width="126" height="126" alt="CSS" title="CSS"></a>
+  <a href="https://sass-lang.com/documentation/syntax/" title="SCSS"><img src="./assets/tech/tiles/scss.svg" width="126" height="126" alt="SCSS" title="SCSS"></a>
+  <a href="https://twig.symfony.com/" title="Twig"><img src="./assets/tech/tiles/twig.svg" width="126" height="126" alt="Twig" title="Twig"></a>
+  <a href="https://pugjs.org/api/getting-started.html" title="Pug"><img src="./assets/tech/tiles/pug.svg" width="126" height="126" alt="Pug" title="Pug"></a>
 </p>
 
 <p>
   <strong>Backend</strong><br>
-  <a href="https://laravel.com/" title="Laravel"><img src="./assets/tech/laravel.svg" width="58" height="58" alt="Laravel" title="Laravel"></a>
-  <a href="https://nodejs.org/" title="Node.js"><img src="./assets/tech/nodejs.svg" width="58" height="58" alt="Node.js" title="Node.js"></a>
-  <a href="https://expressjs.com/" title="Express"><img src="./assets/tech/express.svg" width="58" height="58" alt="Express" title="Express"></a>
-  <a href="https://fastify.dev/" title="Fastify"><img src="./assets/tech/fastify.svg" width="58" height="58" alt="Fastify" title="Fastify"></a>
-  <a href="https://www.prisma.io/" title="Prisma"><img src="./assets/tech/prisma.svg" width="58" height="58" alt="Prisma" title="Prisma"></a>
+  <a href="https://laravel.com/" title="Laravel"><img src="./assets/tech/tiles/laravel.svg" width="126" height="126" alt="Laravel" title="Laravel"></a>
+  <a href="https://nodejs.org/" title="Node.js"><img src="./assets/tech/tiles/nodejs.svg" width="126" height="126" alt="Node.js" title="Node.js"></a>
+  <a href="https://expressjs.com/" title="Express"><img src="./assets/tech/tiles/express.svg" width="126" height="126" alt="Express" title="Express"></a>
+  <a href="https://fastify.dev/" title="Fastify"><img src="./assets/tech/tiles/fastify.svg" width="126" height="126" alt="Fastify" title="Fastify"></a>
+  <a href="https://www.prisma.io/" title="Prisma"><img src="./assets/tech/tiles/prisma.svg" width="126" height="126" alt="Prisma" title="Prisma"></a>
 </p>
 
 <p>
   <strong>Базы данных и кеши</strong><br>
-  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="./assets/tech/postgresql.svg" width="58" height="58" alt="PostgreSQL" title="PostgreSQL"></a>
-  <a href="https://redis.io/" title="Redis"><img src="./assets/tech/redis.svg" width="58" height="58" alt="Redis" title="Redis"></a>
-  <a href="https://clickhouse.com/" title="ClickHouse"><img src="./assets/tech/clickhouse.svg" width="58" height="58" alt="ClickHouse" title="ClickHouse"></a>
-  <a href="https://www.mysql.com/" title="MySQL"><img src="./assets/tech/mysql.svg" width="58" height="58" alt="MySQL" title="MySQL"></a>
-  <a href="https://www.mongodb.com/" title="MongoDB"><img src="./assets/tech/mongodb.svg" width="58" height="58" alt="MongoDB" title="MongoDB"></a>
+  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="./assets/tech/tiles/postgresql.svg" width="126" height="126" alt="PostgreSQL" title="PostgreSQL"></a>
+  <a href="https://redis.io/" title="Redis"><img src="./assets/tech/tiles/redis.svg" width="126" height="126" alt="Redis" title="Redis"></a>
+  <a href="https://clickhouse.com/" title="ClickHouse"><img src="./assets/tech/tiles/clickhouse.svg" width="126" height="126" alt="ClickHouse" title="ClickHouse"></a>
+  <a href="https://www.mysql.com/" title="MySQL"><img src="./assets/tech/tiles/mysql.svg" width="126" height="126" alt="MySQL" title="MySQL"></a>
+  <a href="https://www.mongodb.com/" title="MongoDB"><img src="./assets/tech/tiles/mongodb.svg" width="126" height="126" alt="MongoDB" title="MongoDB"></a>
 </p>
 
 <p>
   <strong>Инфраструктура и очереди</strong><br>
-  <a href="https://www.docker.com/" title="Docker"><img src="./assets/tech/docker.svg" width="58" height="58" alt="Docker" title="Docker"></a>
-  <a href="https://kubernetes.io/" title="Kubernetes"><img src="./assets/tech/kubernetes.svg" width="58" height="58" alt="Kubernetes" title="Kubernetes"></a>
-  <a href="https://helm.sh/" title="Helm"><img src="./assets/tech/helm.svg" width="58" height="58" alt="Helm" title="Helm"></a>
-  <a href="https://kafka.apache.org/" title="Kafka"><img src="./assets/tech/kafka.svg" width="58" height="58" alt="Kafka" title="Kafka"></a>
-  <a href="https://www.rabbitmq.com/" title="RabbitMQ"><img src="./assets/tech/rabbitmq.svg" width="58" height="58" alt="RabbitMQ" title="RabbitMQ"></a>
+  <a href="https://www.docker.com/" title="Docker"><img src="./assets/tech/tiles/docker.svg" width="126" height="126" alt="Docker" title="Docker"></a>
+  <a href="https://kubernetes.io/" title="Kubernetes"><img src="./assets/tech/tiles/kubernetes.svg" width="126" height="126" alt="Kubernetes" title="Kubernetes"></a>
+  <a href="https://helm.sh/" title="Helm"><img src="./assets/tech/tiles/helm.svg" width="126" height="126" alt="Helm" title="Helm"></a>
+  <a href="https://kafka.apache.org/" title="Kafka"><img src="./assets/tech/tiles/kafka.svg" width="126" height="126" alt="Kafka" title="Kafka"></a>
+  <a href="https://www.rabbitmq.com/" title="RabbitMQ"><img src="./assets/tech/tiles/rabbitmq.svg" width="126" height="126" alt="RabbitMQ" title="RabbitMQ"></a>
 </p>
 
 <p>
   <strong>Релизы и мониторинг</strong><br>
-  <a href="https://www.getunleash.io/" title="Unleash"><img src="./assets/tech/unleash.svg" width="58" height="58" alt="Unleash" title="Unleash"></a>
-  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="./assets/tech/github-actions.svg" width="58" height="58" alt="GitHub Actions" title="GitHub Actions"></a>
-  <a href="https://prometheus.io/" title="Prometheus"><img src="./assets/tech/prometheus.svg" width="58" height="58" alt="Prometheus" title="Prometheus"></a>
-  <a href="https://grafana.com/oss/grafana/" title="Grafana"><img src="./assets/tech/grafana.svg" width="58" height="58" alt="Grafana" title="Grafana"></a>
+  <a href="https://www.getunleash.io/" title="Unleash"><img src="./assets/tech/tiles/unleash.svg" width="126" height="126" alt="Unleash" title="Unleash"></a>
+  <a href="https://github.com/features/actions" title="GitHub Actions"><img src="./assets/tech/tiles/github-actions.svg" width="126" height="126" alt="GitHub Actions" title="GitHub Actions"></a>
+  <a href="https://prometheus.io/" title="Prometheus"><img src="./assets/tech/tiles/prometheus.svg" width="126" height="126" alt="Prometheus" title="Prometheus"></a>
+  <a href="https://grafana.com/oss/grafana/" title="Grafana"><img src="./assets/tech/tiles/grafana.svg" width="126" height="126" alt="Grafana" title="Grafana"></a>
 </p>
