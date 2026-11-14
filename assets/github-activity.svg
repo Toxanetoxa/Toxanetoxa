@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 326" width="856" height="326" role="img" aria-labelledby="title desc">
   <title id="title">Активность на GitHub за год</title>
-  <desc id="desc">278 вкладов за год, 35 активных дней. С 09.11.2025 по 14.11.2026. Каждый квадрат показывает день.</desc>
+  <desc id="desc">279 вкладов за год, 35 активных дней. С 09.11.2025 по 14.11.2026. Каждый квадрат показывает день.</desc>
   <rect x="0.5" y="0.5" width="855" height="325" rx="15" fill="#0f1928" stroke="#2a4051"/>
   <g font-family="system-ui, sans-serif">
     <text x="32" y="50" fill="#edf6f8" font-size="30" font-weight="650">Активность за год</text>
-    <text x="32" y="108" fill="#73e5cb" font-size="43" font-weight="700">278</text>
+    <text x="32" y="108" fill="#73e5cb" font-size="43" font-weight="700">279</text>
     <text x="32" y="139" fill="#b8ccd5" font-size="25">Вклады</text>
     <text x="312" y="108" fill="#73e5cb" font-size="43" font-weight="700">35</text>
     <text x="312" y="139" fill="#b8ccd5" font-size="25">Активные дни</text>
