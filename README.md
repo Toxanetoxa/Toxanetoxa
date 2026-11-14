@@ -30,33 +30,33 @@
 
 <p>
   <strong>Языки</strong><br>
-  <img src="./assets/tech/languages.svg" width="305" alt="Go, Python, PHP, JavaScript, TypeScript">
+  <img src="./assets/tech/languages-lilac.svg" width="305" alt="Go, Python, PHP, JavaScript, TypeScript">
 </p>
 <p>
   <strong>Frontend</strong><br>
-  <img src="./assets/tech/frontend.svg" width="305" alt="Vue, React, Next.js, Nuxt, Storybook">
+  <img src="./assets/tech/frontend-lilac.svg" width="305" alt="Vue, React, Next.js, Nuxt, Storybook">
 </p>
 <p>
   <strong>Инструменты фронтенда</strong><br>
-  <img src="./assets/tech/frontend-tools.svg" width="206" alt="TanStack Query, Axios, Vite">
+  <img src="./assets/tech/frontend-tools-lilac.svg" width="206" alt="TanStack Query, Axios, Vite">
 </p>
 <p>
   <strong>Вёрстка и шаблоны</strong><br>
-  <img src="./assets/tech/markup.svg" width="305" alt="HTML, CSS, SCSS, Twig, Pug">
+  <img src="./assets/tech/markup-lilac.svg" width="305" alt="HTML, CSS, SCSS, Twig, Pug">
 </p>
 <p>
   <strong>Backend</strong><br>
-  <img src="./assets/tech/backend.svg" width="305" alt="Laravel, Node.js, Express, Fastify, Prisma">
+  <img src="./assets/tech/backend-lilac.svg" width="305" alt="Laravel, Node.js, Express, Fastify, Prisma">
 </p>
 <p>
   <strong>Базы данных и кеши</strong><br>
-  <img src="./assets/tech/data.svg" width="305" alt="PostgreSQL, Redis, ClickHouse, MySQL, MongoDB">
+  <img src="./assets/tech/data-lilac.svg" width="305" alt="PostgreSQL, Redis, ClickHouse, MySQL, MongoDB">
 </p>
 <p>
   <strong>Инфраструктура и очереди</strong><br>
-  <img src="./assets/tech/infra.svg" width="305" alt="Docker, Kubernetes, Helm, Kafka, RabbitMQ">
+  <img src="./assets/tech/infra-lilac.svg" width="305" alt="Docker, Kubernetes, Helm, Kafka, RabbitMQ">
 </p>
 <p>
   <strong>Релизы и мониторинг</strong><br>
-  <img src="./assets/tech/delivery.svg" width="278" alt="Unleash, GitHub Actions, Prometheus, Grafana">
+  <img src="./assets/tech/delivery-lilac.svg" width="278" alt="Unleash, GitHub Actions, Prometheus, Grafana">
 </p>
