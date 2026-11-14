@@ -39,9 +39,9 @@
 </p>
 <p>
   <strong>Инфраструктура и очереди</strong><br>
-  <img src="./assets/tech/infra.svg" width="243" alt="Docker, Kubernetes, Kafka, RabbitMQ">
+  <img src="./assets/tech/infra.svg" width="305" alt="Docker, Kubernetes, Helm, Kafka, RabbitMQ">
 </p>
 
 ## Активность на GitHub
 
-[![Вклады и активные дни по публичному календарю GitHub за год](./assets/github-activity.svg)](https://github.com/Toxanetoxa#js-contribution-activity-description)
+![Вклады и активные дни по публичному календарю GitHub за год](./assets/github-activity.svg)
