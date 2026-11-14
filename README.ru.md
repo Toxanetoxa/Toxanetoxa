@@ -28,6 +28,15 @@
 - **[Selesa Slots](https://github.com/Toxanetoxa/selesa-slots)** — сервис игрового кошелька с REST, gRPC и событиями по WebSocket.
 - **[Notification Preferences Service](https://github.com/Toxanetoxa/notification_preference_service)** — API пользовательских настроек уведомлений и тихих часов. TypeScript · Fastify · PostgreSQL.
 
+## Аналитика репозиториев
+
+<p align="center">
+  <img src="./assets/analytics/languages.ru.svg" width="352" alt="Языки по доле байтов кода">
+  <img src="./assets/analytics/technologies.ru.svg" width="352" alt="Технологии по доле репозиториев">
+</p>
+
+В выборку входят мои публичные репозитории за исключением форков, архивных проектов и этого профиля. Доли языков рассчитаны по байтам кода, которые учитывает GitHub Linguist, поэтому на график сильнее влияют крупные репозитории, например [Nizhny-Novgorod-map](https://github.com/Toxanetoxa/Nizhny-Novgorod-map). Доли технологий рассчитаны по зависимостям и файлам конфигурации. Один репозиторий может учитываться в нескольких долях.
+
 ## Технологии
 
 <p align="center">

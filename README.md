@@ -28,6 +28,15 @@ I build web services, from APIs and data processing to user interfaces and desig
 - **[Selesa Slots](https://github.com/Toxanetoxa/selesa-slots)** — a gaming wallet service with REST, gRPC, and real-time events over WebSocket.
 - **[Notification Preferences Service](https://github.com/Toxanetoxa/notification_preference_service)** — an API for user notification preferences and quiet hours. TypeScript · Fastify · PostgreSQL.
 
+## Repository analytics
+
+<p align="center">
+  <img src="./assets/analytics/languages.en.svg" width="352" alt="Languages by share of code bytes">
+  <img src="./assets/analytics/technologies.en.svg" width="352" alt="Detected technologies by share of repositories">
+</p>
+
+Based on my public repositories, excluding forks, archived projects, and this profile. Languages are weighted by code bytes reported by GitHub Linguist, so large repositories such as [Nizhny-Novgorod-map](https://github.com/Toxanetoxa/Nizhny-Novgorod-map) have more influence. Technology shares are based on dependencies and configuration. A repository can count toward several technologies.
+
 ## Technology stack
 
 <p align="center">
