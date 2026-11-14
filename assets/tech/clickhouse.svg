@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>ClickHouse</title>
+  <!-- Icon paths from Simple Icons (CC0-1.0), https://github.com/simple-icons/simple-icons -->
+  <rect x=".5" y=".5" width="47" height="47" rx="9" fill="#211A30" stroke="#9E78CD"/>
+  <rect x="8" y="8" width="32" height="32" rx="7" fill="#E8DDF2"/>
+  <path d="M21.333 10H24v4h-2.667ZM16 1.335h2.667v21.33H16Zm-5.333 0h2.666v21.33h-2.666ZM0 22.665V1.335h2.667v21.33zm5.333-21.33H8v21.33H5.333Z" transform="translate(11 11) scale(1.083333)" fill="#9A6920"/>
+</svg>
