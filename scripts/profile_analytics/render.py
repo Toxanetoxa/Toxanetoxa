@@ -10,15 +10,19 @@ _BAR_WIDTH = _CARD_WIDTH - 2 * _INSET
 _COPY = {
     "en": {
         "languages": "Languages",
+        "primary_languages": "Primary languages",
         "technologies": "Technologies",
         "empty": "No data found",
         "other": "Other",
+        "undetected": "Undetected",
     },
     "ru": {
         "languages": "Языки",
+        "primary_languages": "Основные языки",
         "technologies": "Технологии",
         "empty": "Данные не найдены",
         "other": "Другие",
+        "undetected": "Не определён",
     },
 }
 
@@ -51,6 +55,16 @@ def render_technologies(rows, repo_count, locale):
     return _render_card("technologies", rows, scope, locale)
 
 
+def render_primary_languages(rows, repo_count, locale):
+    """Render the percentage of repositories per primary language."""
+    if locale == "ru":
+        scope = f"Один голос на репозиторий · всего {repo_count}"
+    else:
+        repos = "repo" if repo_count == 1 else "repos"
+        scope = f"One vote per repository · {repo_count} {repos}"
+    return _render_card("primary_languages", rows, scope, locale)
+
+
 def _format_share(share, locale):
     rounded = f"{share:.1f}".removesuffix(".0")
     if 0 < share < 0.05:
@@ -63,7 +77,8 @@ def _format_share(share, locale):
 def _render_card(kind, rows, scope, locale):
     copy = _COPY[locale]
     title = copy[kind]
-    labels = [(copy["other"] if name == "Other" else name, share) for name, share in rows]
+    special_labels = {"Other": copy["other"], "Undetected": copy["undetected"]}
+    labels = [(special_labels.get(name, name), share) for name, share in rows]
     height = 99 + max(1, len(labels)) * _ROW_HEIGHT
     description = scope + ". " + ", ".join(
         f"{name} {_format_share(share, locale)}" for name, share in labels

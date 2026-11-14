@@ -12,11 +12,12 @@ from urllib.parse import quote, urlencode
 from urllib.request import Request, urlopen
 
 from detect import detect_technologies, is_manifest
-from render import render_languages, render_technologies
+from render import render_languages, render_primary_languages, render_technologies
 
 
 API = "https://api.github.com"
 LANGUAGES_SHOWN = 5
+PRIMARY_LANGUAGES_SHOWN = 4
 TECHNOLOGIES_SHOWN = 6
 
 
@@ -78,6 +79,19 @@ def ranked(counts):
     return sorted(counts.items(), key=lambda item: (-item[1], item[0].casefold()))
 
 
+def primary_language_rows(repos):
+    counts = Counter(repo["language"] for repo in repos)
+    undetected = counts.pop(None, 0)
+    ordered = ranked(counts)
+    rows = ordered[:PRIMARY_LANGUAGES_SHOWN]
+    other = sum(count for _, count in ordered[PRIMARY_LANGUAGES_SHOWN:])
+    if other:
+        rows.append(("Other", other))
+    if undetected:
+        rows.append(("Undetected", undetected))
+    return [(language, count / len(repos) * 100) for language, count in rows]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("owner")
@@ -102,6 +116,7 @@ def main():
     other = sum(count for _, count in most_common[LANGUAGES_SHOWN:])
     if other:
         language_rows.append(("Other", other / total_bytes * 100))
+    primary_rows = primary_language_rows(repos)
     technology_rows = [
         (name, count / len(repos) * 100) for name, count in ranked(technologies)[:TECHNOLOGIES_SHOWN]
     ]
@@ -111,6 +126,10 @@ def main():
         f"languages.{locale}.svg": render_languages(language_rows, measured_repos, locale)
         for locale in ("en", "ru")
     }
+    cards.update({
+        f"primary-languages.{locale}.svg": render_primary_languages(primary_rows, len(repos), locale)
+        for locale in ("en", "ru")
+    })
     cards.update({
         f"technologies.{locale}.svg": render_technologies(technology_rows, len(repos), locale)
         for locale in ("en", "ru")
@@ -124,6 +143,7 @@ def main():
     if total_bytes:
         print(f"Largest repository by detected code: {largest_repo} ({sum(largest_bytes.values()) / total_bytes:.1%})")
     print("Languages:", language_rows)
+    print("Primary languages:", primary_rows)
     print("Technologies:", technology_rows)
 
 
