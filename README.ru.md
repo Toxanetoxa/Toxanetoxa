@@ -31,9 +31,18 @@
 ## Аналитика репозиториев
 
 <p align="center">
-  <img src="./assets/analytics/languages.ru.svg" width="352" alt="Языки по доле байтов кода">
-  <img src="./assets/analytics/primary-languages.ru.svg" width="352" alt="Доли репозиториев по основному языку, включая репозитории без определённого языка">
-  <img src="./assets/analytics/technologies.ru.svg" width="352" alt="Технологии по доле репозиториев">
+  <picture>
+    <source media="(max-width: 991px)" srcset="./assets/analytics/languages.ru.svg" width="352">
+    <img src="./assets/analytics/languages.ru.svg" width="32%" alt="Языки по доле байтов кода">
+  </picture>
+  <picture>
+    <source media="(max-width: 991px)" srcset="./assets/analytics/primary-languages.ru.svg" width="352">
+    <img src="./assets/analytics/primary-languages.ru.svg" width="32%" alt="Доли репозиториев по основному языку, включая репозитории без определённого языка">
+  </picture>
+  <picture>
+    <source media="(max-width: 991px)" srcset="./assets/analytics/technologies.ru.svg" width="352">
+    <img src="./assets/analytics/technologies.ru.svg" width="32%" alt="Технологии по доле репозиториев">
+  </picture>
 </p>
 
 В выборку входят мои публичные репозитории за исключением форков, архивных проектов и этого профиля. На графике основных языков у каждого репозитория один голос. Язык определяет GitHub, а проекты без определённого языка учитываются отдельно. График по объёму кода построен на данных GitHub Linguist, поэтому на график сильнее влияют крупные репозитории, например [Nizhny-Novgorod-map](https://github.com/Toxanetoxa/Nizhny-Novgorod-map). Доли технологий рассчитаны по зависимостям и файлам конфигурации. Один репозиторий может учитываться в нескольких долях.

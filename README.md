@@ -31,9 +31,18 @@ I build web services, from APIs and data processing to user interfaces and desig
 ## Repository analytics
 
 <p align="center">
-  <img src="./assets/analytics/languages.en.svg" width="352" alt="Languages by share of code bytes">
-  <img src="./assets/analytics/primary-languages.en.svg" width="352" alt="Share of repositories by primary language, including repositories with no detected language">
-  <img src="./assets/analytics/technologies.en.svg" width="352" alt="Detected technologies by share of repositories">
+  <picture>
+    <source media="(max-width: 991px)" srcset="./assets/analytics/languages.en.svg" width="352">
+    <img src="./assets/analytics/languages.en.svg" width="32%" alt="Languages by share of code bytes">
+  </picture>
+  <picture>
+    <source media="(max-width: 991px)" srcset="./assets/analytics/primary-languages.en.svg" width="352">
+    <img src="./assets/analytics/primary-languages.en.svg" width="32%" alt="Share of repositories by primary language, including repositories with no detected language">
+  </picture>
+  <picture>
+    <source media="(max-width: 991px)" srcset="./assets/analytics/technologies.en.svg" width="352">
+    <img src="./assets/analytics/technologies.en.svg" width="32%" alt="Detected technologies by share of repositories">
+  </picture>
 </p>
 
 Based on my public repositories, excluding forks, archived projects, and this profile. The primary-language chart gives each repository one vote, using the language GitHub reports. Repositories without a detected language are included. The code-size chart is weighted by bytes reported by GitHub Linguist, so large repositories such as [Nizhny-Novgorod-map](https://github.com/Toxanetoxa/Nizhny-Novgorod-map) have more influence. Technology shares are based on dependencies and configuration. A repository can count toward several technologies.
