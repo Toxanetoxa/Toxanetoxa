@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://videoscale.pro/ru/"><img src="./assets/projects/videoscale-demo.webp" width="410" alt="Открыть VideoScale — сервис для повышения разрешения видео и фото с ИИ"></a>
-  <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/docs/schedule-schedulegrid--docs"><img src="./assets/projects/shift-schedule-storybook-demo.webp" width="410" alt="Открыть ShiftSchedule Storybook — интерактивная недельная сетка планировщика смен"></a>
+  <a href="https://toxanetoxa.github.io/ShiftSchedule.frontend/storybook/?path=/story/schedule-workspace--drag-assigned-shift"><img src="./assets/projects/shift-schedule-drag-demo.webp" width="410" alt="Открыть ShiftSchedule Storybook — демо с перетаскиванием назначенной смены"></a>
 </p>
 
 ### Full Stack
